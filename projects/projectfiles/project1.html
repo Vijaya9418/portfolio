@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LearnCode</title>
+    <link rel="stylesheet" href="./project1.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+</head>
+<body>
+    <div class="vicard">
+<a href="../projects.html"><div class="viback"><i class="fas fa-arrow-alt-circle-left    "></i>Back</div></a>
+
+
+<div class="detcard">
+    <div class="deccard">
+        <h1>LearnCode</h1>
+        <p id="pcont">This website is build using react and firebase.<br>
+        Helps learning easily</p>
+    </div>
+    <div class="imgcard"><img id="dpsimg" src="./img/projimg.jpg" alt="Homescreen">
+    <span id='img1' onclick="img1()" class="circle"></span>
+    <span id='img2' onclick="img2()" class="circle"></span>
+    <span id='img3' onclick="img3()" class="circle"></span>
+    </div>
+    </div>
+    <div class="decards">
+        <div onclick="pimg1()" id="pimg1" class="decard">
+            <img src="./img/learn.jpg" alt="">
+            <p>About</p>
+        </div>
+        <div onclick="pimg2()" id="pimg2" class="decard">
+            <img src="./img/learn.jpg" alt="">
+            <p>About Login</p>
+        </div>
+        <div onclick="pimg3()" id="pimg3" class="decard">
+            <img src="img/learn.jpg" alt="">
+            <p>How this site makes learning easy.</p>
+        </div>
+    </div>
+    </div>
+<script>
+    var a=document.getElementById('img1');
+    var b=document.getElementById('img2');
+    var c=document.getElementById('img3');
+    a.style.backgroundColor='green';
+    function img1(){
+        var k=document.getElementById("dpsimg");
+        k.setAttribute('src','./img/projimg.jpg');
+        setall();
+        a.style.backgroundColor='green';
+    }
+    function img2(){
+        var k=document.getElementById("dpsimg");
+        k.setAttribute("src","./img/learn.jpg");
+        setall();
+        b.style.backgroundColor='green';
+    }
+    function img3(){
+        var k=document.getElementById("dpsimg");
+        k.setAttribute("src","./img/posts.jpg"); 
+        setall()
+        c.style.backgroundColor='green';
+
+    }
+    function setall(){
+        a.style.backgroundColor='rgba(165, 164, 164, 0.945)';
+        b.style.backgroundColor='rgba(165, 164, 164, 0.945)';
+        c.style.backgroundColor='rgba(165, 164, 164, 0.945)';
+    }
+    
+
+    var pa=document.getElementById('pimg1');
+    var pb=document.getElementById('pimg2');
+    var pc=document.getElementById('pimg3');
+    function pimg1(){
+        var k=document.getElementById("pcont");
+        k.innerHTML="This website is build using react and firebase.<br> \
+        Helps learning easily"
+        psetall();
+        pa.style.backgroundColor='rgba(0, 255, 255, 0.493)';
+        img1()
+    }
+    function pimg2(){
+        var k=document.getElementById("pcont");
+        k.innerHTML="Used google service to login. <br>\
+        and user with a valid email can login without any other <br>\
+        verificationa and details."
+        psetall();
+        pb.style.backgroundColor='rgba(0, 255, 255, 0.493)';
+        img2()
+    }
+    function pimg3(){
+        var k=document.getElementById("pcont");
+        k.innerHTML="All the content is rendered as html files <br>\
+        so we can use any css to show graphics and sketches to make <br>\
+        understanding easier and simple!" 
+        psetall()
+        pc.style.backgroundColor='rgba(0, 255, 255, 0.493)';
+        img3()
+
+    }
+    function psetall(){
+        pa.style.backgroundColor='rgba(165, 164, 164, 0.945)';
+        pb.style.backgroundColor='rgba(165, 164, 164, 0.945)';
+        pc.style.backgroundColor='rgba(165, 164, 164, 0.945)';
+    }
+</script>
+</body>
+</html>
