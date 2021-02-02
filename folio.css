@@ -1,0 +1,607 @@
+body {
+  margin: 5vh 5vw;
+  background-color: rgba(0, 0, 0, 0.966);
+}
+/* Bar code From here..........................................*/
+.navk {
+  background-color: #ff000000;
+  height: 10%;
+}
+.bar {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  background-color: #2f4353;
+  background-image: linear-gradient(315deg, #2f4353 0%, #68656379 74%);
+  display: block;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  text-align: center;
+  border-style: dashed;
+  padding: 1vw;
+  transition-duration: 1s;
+  border-radius: 12px;
+  padding: 20px;
+  z-index: 5;
+}
+.bar:hover {
+  width: 120px;
+  height: 300px;
+}
+
+.bar a {
+  display: block;
+  width: 100px;
+  margin: 5%;
+  padding: 10px;
+  background-image: linear-gradient(
+    235deg,
+    rgba(4, 4, 44, 0.562) 100%,
+    #2432f136 0%
+  );
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: medium;
+  font-family: "Courier New", Courier, monospace;
+  transition-duration: 2s;
+}
+.bar a:hover {
+  font-weight: bold;
+}
+/* Details box code From here..........................................*/
+.box {
+  display: block;
+  height: 60vh;
+  z-index: 2;
+  margin-top: 10vh;
+  position: relative;
+
+  max-width: 1500px;
+}
+.indexv {
+  z-index: -1;
+  display: block;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  width: 100%;
+}
+.picdetails {
+  width: 40%;
+
+  display: inline-block;
+  background-color: #2f435346;
+
+  background-image: linear-gradient(315deg, #000000fa 0%, #000000 100%);
+  border: whitesmoke;
+  border-radius: 2vmax;
+  vertical-align: top;
+
+  height: 100%;
+}
+.pic {
+  width: 50%;
+  display: block;
+  max-width: 200px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.mydetails {
+  display: block;
+  margin: 40px;
+}
+.mydetails h2 {
+  color: #c6d5f1;
+}
+.mydetails p {
+  text-align: center;
+
+  color: rgba(238, 226, 226, 0.842);
+}
+.mydetails .logolinks {
+  width: 30px;
+  height: 30px;
+  border: none;
+  background-color: aqua;
+}
+.mydetails .logolinks img {
+  margin-left: -3px;
+  border: none;
+}
+.skilldetails {
+  width: 50%;
+
+  text-align: left;
+  padding-inline-start: 5%;
+  vertical-align: top;
+  background-color: #2f435346;
+  background-image: linear-gradient(315deg, #000000 0%, #000000 100%);
+  border: whitesmoke;
+  color: whitesmoke;
+  border-radius: 2vmax;
+  display: inline-block;
+  height: 100%;
+}
+.skilldetails p {
+  color: whitesmoke;
+  padding-right: 100px;
+}
+.links a {
+  padding: 10px 20px;
+  font-size: 24px;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #837b7b7c;
+  border: none;
+  border-radius: 15px;
+  transition-duration: 2s;
+  display: block;
+  width: 100px;
+  margin-top: 100px;
+}
+
+.links a:hover {
+  background-image: none;
+  background-color: #940808be;
+}
+/*Resume...........................................
+*/
+.Resume {
+  background-color: #2f435346;
+  border-radius: 2vmax;
+
+  background-image: linear-gradient(315deg, #000000fa 0%, #000000 100%);
+  display: block;
+  height: 180vh;
+  margin: 4vh;
+  padding: 2vw;
+  transition-duration: 2s;
+}
+.Res {
+  background-color: #2f4353e8;
+  display: inline-block;
+  padding: 2vw;
+  margin-left: 10px;
+  width: 90%;
+  height: 1%;
+  color: whitesmoke;
+}
+.cvside1 {
+  width: 20%;
+  margin-top: 2%;
+  display: inline-block;
+  background-color: #2f4353;
+  height: 142vh;
+  margin-left: 0px;
+
+  padding-top: 2%;
+}
+.cvside2 {
+  width: 45%;
+  margin-top: 2%;
+  padding-top: 4%;
+  margin-left: -10px;
+  display: inline-block;
+  background-color: rgb(231, 231, 231);
+  height: 140vh;
+  vertical-align: top;
+  padding-left: 10px;
+  text-align: left;
+}
+.cvname {
+  position: relative;
+
+  width: 40%;
+  text-align: left;
+  display: inline-block;
+}
+.cvname p {
+  margin-top: -20px;
+  color: #848d06;
+}
+.cvloc {
+  position: relative;
+  display: inline-block;
+  width: 35%;
+  left: 20%;
+}
+.cvlocde {
+  padding: 5px;
+  display: block;
+  border-bottom: 1px solid #413f3f86;
+}
+.cvlocde:last-child {
+  border: none;
+}
+.education {
+  padding-top: 10%;
+  display: block;
+}
+.cvedu {
+  display: block;
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #413f3f86;
+  margin-bottom: 20px;
+}
+.struct {
+  display: block;
+}
+.lpu {
+  font-weight: bold;
+  display: inline-block;
+  width: 25%;
+}
+.lpufade {
+  color: #00000080;
+  display: block;
+}
+.linecv {
+  width: 5%;
+  display: inline-block;
+  vertical-align: top;
+}
+.line {
+  margin-left: 5%;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  display: block;
+  background-color: #b69813b4;
+}
+.lined {
+  display: block;
+  background-color: #b69813b4;
+  width: 2px;
+  margin-left: 7px;
+  height: 120px;
+}
+.btech {
+  font-weight: bold;
+  padding-left: 10px;
+  vertical-align: top;
+  display: inline-block;
+  width: 60%;
+}
+.btechfade {
+  color: #00000080;
+  display: block;
+}
+.struct .progress {
+  color: #00000080;
+  width: 45%;
+  display: inline-block;
+  padding-bottom: 7px;
+}
+
+.cvpro {
+  display: block;
+}
+progress {
+  width: 80%;
+  height: 5px;
+  background-color: #b69813b4;
+}
+::-webkit-progress-bar {
+  background-color: #b1aeae;
+}
+::-webkit-progress-value {
+  background-color: #b69813b4;
+}
+/* Project box code From here..........................................*/
+.Projectsbox {
+  display: block;
+
+  padding-top: 2%;
+  border-radius: 2vmax;
+  margin: 10vh 35px;
+  background-color: #2f435346;
+
+  background-image: linear-gradient(315deg, #000000a1 0%, #000000 100%);
+}
+.project {
+  background-color: rgba(66, 55, 78, 0.74);
+  padding: 1%;
+  margin: 2%;
+  display: inline-block;
+  width: 20%;
+  text-align: left;
+}
+.project img {
+  width: 98%;
+  border: none;
+}
+.Project_dec {
+  display: block;
+  color: red;
+}
+
+/*DOnw png ..........................................*/
+.downpng img {
+  font-size: medium;
+  width: 30px;
+  float: right;
+  margin-right: 9%;
+  border: none;
+}
+/**/
+.cardvk {
+  border: 2vw solid hsl(221, 76%, 8%);
+  position: absolute;
+  top: 50vh;
+  left: 50vw;
+  transform: translate(-50%, -50%);
+  height: 70vh;
+  width: 70vw;
+  max-width: 1500px;
+  display: block;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  box-shadow: 0 0 10px #e2e2e2, 0 0 30px #c6d5f1, 0 0 50px #0b34eb;
+  animation-name: startv;
+  background-color: #050f24c2;
+  animation-fill-mode: forwards;
+}
+@keyframes startv {
+  0% {
+    width: 70vw;
+    height: 70vh;
+  }
+  100% {
+    width: 95vw;
+    height: 95vh;
+  }
+}
+
+.vf {
+  font-size: 10vh;
+  color: rgb(61, 57, 57);
+  position: fixed;
+  rotate: 300deg;
+  text-shadow: 10px 10px 10px #0a1c1d, 2px 2px 30px #050f24;
+  top: 30%;
+  right: 10%;
+  transform: rotate(45deg);
+}
+.kf,
+.if,
+.jf,
+.af,
+.sf {
+  font-size: 10vw;
+  color: rgb(68, 88, 82);
+  position: fixed;
+  position: -webkit-sticky;
+  rotate: 300deg;
+  top: 50%;
+  left: 5%;
+}
+.kf {
+  text-shadow: 20px 20px 10px #0a1c1d, 2px 2px 30px #050f24;
+}
+.if {
+  top: 10%;
+  left: 35%;
+  font-size: 20vh;
+  text-shadow: 20px 20px 10px #0a1c1d;
+}
+.jf {
+  top: 80%;
+  left: 80%;
+  font-size: 20vh;
+  text-shadow: 20px 20px 10px #0a1c1d, 0 0 30px #050f24;
+}
+.af {
+  top: 70%;
+  left: 60%;
+  color: rgb(131, 131, 131);
+  text-shadow: 0 0 10px #0a1c1d, 0 0 30px #050f24;
+}
+.sf {
+  top: 86%;
+  left: 10%;
+  font-size: 10vh;
+  text-shadow: 10px 10px 10px #0a1c1d, 2px 2px 30px #050f24;
+}
+.v {
+  font-size: 10vh;
+  color: rgb(61, 57, 57);
+  position: absolute;
+  rotate: 300deg;
+  text-shadow: 10px 10px 10px #0a1c1d, 2px 2px 30px #050f24;
+  top: 10%;
+  right: 2%;
+  transform: rotate(45deg);
+}
+.b {
+  font-size: 8vh;
+  color: rgb(61, 57, 57);
+  position: absolute;
+  rotate: 200deg;
+  text-shadow: 10px 10px 10px #0a1c1d, 2px 2px 30px #050f24;
+  top: 50%;
+  right: 2%;
+  transform: rotate(155deg);
+}
+
+.c {
+  font-size: 5vh;
+  color: rgb(61, 57, 57);
+  position: absolute;
+  rotate: 200deg;
+  text-shadow: 10px 10px 10px #0a1c1d, 2px 2px 30px #050f24;
+  top: 0%;
+  right: 20%;
+  transform: rotate(35deg);
+}
+
+.d {
+  font-size: 5vh;
+  color: rgb(61, 57, 57);
+  position: absolute;
+  rotate: 200deg;
+  text-shadow: 10px 10px 10px #0a1c1d, 2px 2px 30px #050f24;
+  top: 50%;
+  left: 35%;
+  transform: rotate(135deg);
+}
+
+.e {
+  font-size: 4vh;
+  color: rgb(61, 57, 57);
+  position: absolute;
+  rotate: 200deg;
+  text-shadow: 10px 10px 10px #0a1c1d, 2px 2px 30px #050f24;
+  top: 15%;
+  right: 70%;
+  transform: rotate(15deg);
+}
+
+.f {
+  font-size: 4vh;
+  color: rgb(61, 57, 57);
+  position: absolute;
+  rotate: 200deg;
+  text-shadow: 10px 10px 10px #0a1c1d, 2px 2px 30px #050f24;
+  top: 0%;
+  right: 60%;
+  transform: rotate(5deg);
+}
+.k,
+.i,
+.j,
+.a,
+.s {
+  font-size: 10vw;
+  color: rgb(68, 88, 82);
+  position: absolute;
+  rotate: 300deg;
+  top: 50%;
+  left: 10%;
+}
+.k {
+  top: 40%;
+  left: 2%;
+  font-size: 5vh;
+  text-shadow: 5px 5px 5px #0a1c1d, 2px 2px 30px #050f24;
+}
+.i {
+  top: 15%;
+  left: 35%;
+  font-size: 10vh;
+  text-shadow: 10px 10px 10px #0a1c1d;
+}
+.j {
+  top: 10%;
+  left: 2%;
+  font-size: 10vh;
+  text-shadow: 5px 5px 5px #0a1c1d, 2px 2px 30px #050f24;
+}
+.a {
+  font-size: 9vh;
+  color: rgb(61, 57, 57);
+  position: absolute;
+  rotate: 200deg;
+  text-shadow: 5px 5px 5px #0a1c1d, 2px 2px 30px #050f24;
+  top: 0%;
+  right: 3%;
+  transform: rotate(175deg);
+}
+.s {
+  top: 60%;
+  left: 3%;
+  font-size: 8vh;
+  text-shadow: 5px 5px 5px #0a1c1d, 2px 2px 30px #050f24;
+}
+
+.b {
+  text-shadow: 10px 10px 10px #0a1c1d, 2px 2px 30px #050f24;
+}
+.c {
+  text-shadow: 5px 5px 5px #0a1c1d, 2px 2px 30px #050f24;
+}
+.d {
+  text-shadow: 5px 5px 5px #0a1c1d, 2px 2px 30px #050f24;
+}
+.e {
+  text-shadow: 5px 5px 5px #0a1c1d, 2px 2px 30px #050f24;
+}
+.f {
+  text-shadow: 5px 5px 5px #0a1c1d, 2px 2px 30px #050f24;
+}
+
+/*
+...................contact css
+*/
+.contacts {
+  padding: 5%;
+  margin: 10vh 35px;
+  border-radius: 2vmax;
+
+  background-image: linear-gradient(315deg, #000000fa 0%, #000000 100%);
+}
+.emailvk {
+  color: azure;
+  text-align: left;
+  display: block;
+  font-weight: bolder;
+  font-size: large;
+}
+.h123vk {
+  font-weight: bolder;
+  display: block;
+  color: azure;
+  text-align: left;
+  font-size: large;
+}
+.cont123:hover {
+  background-color: rgba(183, 243, 223, 0.342);
+}
+.cont123 {
+  background-color: rgba(186, 186, 214, 0.342);
+  display: block;
+  padding: 5vh;
+  width: 50vw;
+  min-width: 500px;
+  margin: auto;
+  text-align: left;
+  margin-top: 80px;
+  margin-bottom: 500px;
+  transition-duration: 1s;
+}
+
+.logolinks {
+  height: 70px;
+  width: 70px;
+  margin: 20px 10px;
+
+  padding: 10px;
+  background-color: aqua;
+  padding-top: 5px;
+  transition-duration: 1.5s;
+  display: inline-block;
+}
+.logolinks:hover {
+  background-color: aqua;
+}
+
+.cvlocde img {
+  width: 20px;
+  border: none;
+  padding-right: 9px;
+}
+.cvlocde {
+  vertical-align: top;
+}
+.locdet {
+  display: inline-block;
+  vertical-align: top;
+}

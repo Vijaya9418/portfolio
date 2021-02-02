@@ -1,0 +1,147 @@
+.Projectsbox {
+  display: block;
+  margin: 2vh 10px;
+
+  margin-top: 3vw;
+  padding-top: 2%;
+  background-color: rgba(0, 0, 0, 0.521);
+}
+.pname {
+  z-index: 2;
+}
+.pname h1 {
+  color: rgb(173, 173, 173);
+  display: block;
+  margin-top: 0px;
+  font-size: 20px;
+  padding: 0px;
+  margin: 0px;
+  margin-top: 0px;
+  z-index: 3;
+}
+.pname h1:hover {
+  font-size: 25px;
+}
+.firstletter {
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+}
+.pcard {
+  width: 25%;
+  min-width: 250px;
+  display: inline-block;
+  background-color: rgba(39, 39, 39, 0);
+  margin: 2%;
+  padding: 0px;
+  text-align: left;
+  padding: 10px;
+  position: relative;
+  box-shadow: 2px 2px beige;
+  overflow: hidden;
+  background-image: linear-gradient(
+      230deg,
+      rgb(116, 6, 6),
+      rgba(20, 8, 126, 0.897)
+    ),
+    url(../../projects/projectfiles/img/projimg.jpg);
+  filter: brightness(100%);
+}
+.pcard:hover {
+  filter: brightness(150%);
+}
+
+.pimgback {
+  z-index: 2;
+}
+.pimgback img {
+  width: 96%;
+  height: 96%;
+  position: absolute;
+  z-index: 0;
+  filter: brightness(30%);
+}
+.pcard:hover {
+  background-color: rgb(61, 61, 61);
+}
+.pdec p {
+  height: 150px;
+  display: block;
+  overflow: hidden;
+  font-family: "Courier New", Courier, monospace;
+  color: rgba(255, 255, 255, 0.705);
+}
+.pdec p:hover {
+  color: whitesmoke;
+}
+
+.pdemo a {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.795);
+  background-color: rgba(245, 250, 248, 0.582);
+  padding: 5px;
+  border-radius: 12px;
+  transition-duration: 1s;
+}
+.pdeom a:hover {
+  color: bisque;
+  background-color: rgba(255, 127, 238, 0.582);
+}
+.icons {
+  width: 30px;
+  display: inline-block;
+  height: 30px;
+  position: relative;
+  margin: 10px;
+  background-color: rgb(42, 126, 165);
+  border-radius: 12px;
+}
+.icons img {
+  width: 30px;
+}
+.icons a {
+  color: aliceblue;
+  margin-top: 5px;
+}
+.icons:hover {
+  background-color: aqua;
+}
+
+.tooltip {
+  visibility: hidden;
+  position: absolute;
+  top: -30px;
+  background-color: rgba(36, 5, 5, 0.644);
+  padding: 2px 5px;
+  color: rgba(245, 245, 245, 0.651);
+  border-radius: 12px;
+  margin-left: -30%;
+}
+.tooltip::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: rgba(36, 5, 5, 0.644) transparent transparent transparent;
+}
+.icons:hover .tooltip {
+  visibility: visible;
+}
+.navkl {
+  height: 10vh;
+}
+.tech,
+.timepro {
+  background-color: rgba(240, 248, 255, 0.747);
+  padding: 5px;
+  font-weight: bold;
+  border-radius: 5px;
+  color: black;
+}
+.timepro {
+  background-color: rgba(110, 233, 227, 0.829);
+  float: right;
+  color: black;
+}

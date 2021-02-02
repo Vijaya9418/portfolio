@@ -1,0 +1,194 @@
+.Resume {
+  background-color: rgba(236, 236, 236, 0.425);
+  display: block;
+  height: 50px;
+  margin-top: 5vh;
+  transition-duration: 1s;
+  overflow: hidden;
+}
+.Res {
+  background-color: #2f4353e8;
+  display: block;
+  padding: 2vw;
+  color: whitesmoke;
+}
+.cvside1 {
+  width: 30%;
+  margin-top: 2%;
+  display: inline-block;
+  background-color: #2f4353;
+  height: 170vh;
+  margin-left: 0px;
+  padding: 20px;
+  text-align: left;
+  padding-top: 2%;
+}
+.cvdp img {
+  display: block;
+  width: 80%;
+  margin: auto;
+  border-radius: 100%;
+  border: none;
+}
+.cvsubh {
+  color: #848d06;
+  font-weight: bold;
+  display: block;
+  text-align: left;
+  font-size: x-large;
+  margin-top: 20px;
+}
+.cvcon {
+  color: rgba(245, 245, 245, 0.678);
+  padding-top: 30px;
+  display: block;
+  font-size: large;
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.726);
+}
+.cvside1 .progress {
+  color: white;
+  display: block;
+  margin-top: 20px;
+}
+
+.cvcourses {
+  color: white;
+  display: block;
+  margin-top: 20px;
+}
+.cvside1 .cvcourses:last-child {
+  border-bottom: 1px solid white;
+}
+.cvcoursefade {
+  color: rgba(255, 255, 255, 0.562);
+  display: block;
+}
+.cvdetails {
+  color: white;
+  display: block;
+  margin-top: 20px;
+}
+.cvdetailsfade {
+  color: rgba(255, 255, 255, 0.808);
+  display: block;
+}
+.cvlinevk {
+  display: block;
+
+  border-bottom: 1px solid rgba(255, 255, 255, 0.719);
+  margin-top: 30px;
+}
+/* OTHER SIDE ...............*/
+.cvside2 {
+  width: 60%;
+  margin-top: 2%;
+  padding-top: 7%;
+  margin-left: -10px;
+  display: inline-block;
+  background-color: rgb(231, 231, 231);
+  height: 170vh;
+  vertical-align: top;
+  padding-left: 10px;
+  text-align: left;
+}
+.cvname {
+  position: relative;
+
+  width: 40%;
+  text-align: left;
+  display: inline-block;
+}
+.cvname p {
+  margin-top: -20px;
+  color: #848d06;
+}
+.cvloc {
+  position: relative;
+  display: inline-block;
+  width: 35%;
+  left: 20%;
+}
+.cvlocde {
+  padding: 5px;
+  display: block;
+  border-bottom: 1px solid #413f3f86;
+}
+.cvlocde:last-child {
+  border: none;
+}
+.education {
+  padding-top: 10%;
+  display: block;
+}
+.cvedu {
+  display: block;
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #413f3f86;
+  margin-bottom: 20px;
+}
+.struct {
+  display: block;
+}
+.lpu {
+  font-weight: bold;
+  display: inline-block;
+  width: 25%;
+}
+.lpufade {
+  color: #00000080;
+  display: block;
+}
+.linecv {
+  width: 5%;
+  display: inline-block;
+  vertical-align: top;
+}
+.line {
+  margin-left: 5%;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  display: block;
+  background-color: #b69813b4;
+}
+.lined {
+  display: block;
+  background-color: #b69813b4;
+  width: 2px;
+  margin-left: 7px;
+  height: 120px;
+}
+.btech {
+  font-weight: bold;
+  padding-left: 10px;
+  vertical-align: top;
+  display: inline-block;
+  width: 60%;
+}
+.btechfade {
+  color: #00000080;
+  display: block;
+}
+.struct .progress {
+  color: #00000080;
+  width: 45%;
+  display: inline-block;
+  padding-bottom: 7px;
+}
+
+.cvpro {
+  display: block;
+}
+progress {
+  width: 80%;
+  height: 5px;
+  background-color: #b69813b4;
+}
+::-webkit-progress-bar {
+  background-color: #b1aeae;
+}
+::-webkit-progress-value {
+  background-color: #b69813b4;
+}

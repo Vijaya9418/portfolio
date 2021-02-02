@@ -1,0 +1,161 @@
+.iconskelvin {
+  right: 12vw;
+  top: 40%;
+  position: fixed;
+  z-index: 3;
+  border-radius: 12px;
+}
+.circlesm {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  border: 1px solid white;
+  margin-left: 10px;
+}
+.circlesm:hover {
+  background-color: aqua;
+}
+.kill {
+  text-align: right;
+  color: rgba(255, 255, 255, 0.212);
+  display: block;
+  padding: 20px;
+}
+.kill:hover .circlesm {
+  background-color: aqua;
+}
+.circlesm:hover .tooltip {
+  visibility: visible;
+}
+
+.socialmedia {
+  position: absolute;
+  z-index: 3;
+  display: block;
+  left: 15vw;
+  top: 40%;
+}
+.logolinksv img {
+  background-color: #90fff9;
+  width: 25px;
+  margin: 25px;
+  display: block;
+  transition: 0.5s;
+}
+.logolinksv img:hover {
+  background-color: rgb(60, 255, 0);
+}
+.arrowsvk {
+  color: white;
+  position: fixed;
+  top: 80vh;
+  right: 12vw;
+  z-index: 3;
+  display: block;
+}
+.arrowiv {
+  display: block;
+  background-color: rgba(255, 255, 255, 0.205);
+  margin: 10px;
+  padding: 5px;
+}
+.arrowiv:hover {
+  color: aqua;
+}
+#box1 {
+  visibility: visible;
+}
+#box2 {
+  position: absolute;
+  bottom: 0px;
+  z-index: 6;
+  color: whitesmoke;
+  left: 50%;
+  transform: translate(-50%, 0px);
+  height: 95%;
+  margin: auto;
+  display: inline-block;
+  text-align: center;
+  visibility: hidden;
+  width: 60%;
+  align-items: center;
+}
+.lnkcover {
+  display: inline-block;
+  width: 450px;
+  align-items: center;
+}
+.lnk,
+.lnkc {
+  display: inline-block;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+
+  background-color: rgba(255, 255, 255, 0.226);
+}
+.lnkc {
+  display: block;
+  text-align: left;
+  font-weight: bold;
+}
+.smtext {
+  float: right;
+}
+.skillsvi {
+  margin-top: 40px;
+  padding: 5px;
+  text-align: center;
+  background-color: rgba(0, 0, 255, 0.349);
+  border-radius: 12px;
+  display: block;
+}
+.skilldet {
+  font-size: x-large;
+  padding: 10px;
+  background-color: #0b91eb;
+  display: block;
+  text-align: left;
+
+  height: 18px;
+  color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  border-radius: 5px;
+  align-items: center;
+}
+#box3 {
+  position: absolute;
+  bottom: 0px;
+  z-index: 6;
+
+  color: whitesmoke;
+  left: 50%;
+  transform: translate(-50%, 0px);
+  height: 90%;
+  margin: auto;
+  width: 80%;
+  display: block;
+  text-align: center;
+  overflow: scroll;
+  visibility: hidden;
+}
+
+#box4 {
+  position: absolute;
+  bottom: 0px;
+  z-index: 6;
+  color: whitesmoke;
+  left: 50%;
+  transform: translate(-50%, 0px);
+  height: 95%;
+  margin: auto;
+  display: inline-block;
+  text-align: center;
+  visibility: hidden;
+
+  align-items: center;
+  overflow: scroll;
+}

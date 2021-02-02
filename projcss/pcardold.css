@@ -1,0 +1,61 @@
+.pname h1 {
+  color: darkslategrey;
+  display: block;
+  margin-top: -30px;
+  font-size: 20px;
+  padding: 0px;
+  margin: 0px;
+  margin-top: -30px;
+}
+.pname h1:hover {
+  font-size: 25px;
+}
+.firstletter {
+  font-size: 50px;
+  color: blue;
+}
+.pcard {
+  width: 25%;
+  display: inline-block;
+  background-color: cadetblue;
+  margin: 2%;
+  padding: 0px;
+  text-align: left;
+  padding: 10px;
+}
+.pcard:hover {
+  background-color: rgb(0, 185, 130);
+}
+.pdec p {
+  height: 150px;
+  display: block;
+  overflow: hidden;
+  color: dimgrey;
+}
+.pdec p:hover {
+  color: black;
+}
+
+.pdemo a {
+  text-decoration: none;
+  color: rgba(30, 64, 218, 0.795);
+  background-color: rgba(127, 255, 212, 0.582);
+  padding: 5px;
+  border-radius: 12px;
+  transition-duration: 1s;
+}
+.pdeom a:hover {
+  color: bisque;
+  background-color: rgba(255, 127, 238, 0.582);
+}
+.icons {
+  width: 30px;
+  display: inline-block;
+  height: 30px;
+  margin: 10px;
+  background-color: brown;
+  border-radius: 12px;
+}
+.icons img {
+  width: 30px;
+}
